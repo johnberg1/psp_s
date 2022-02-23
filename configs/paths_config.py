@@ -1,0 +1,20 @@
+dataset_paths = {
+	'celeba_train': '/scratch/users/abaykal20/sam/SAM/mmcelebhq/train_images/',
+	'celeba_test': '/scratch/users/abaykal20/sam/SAM/mmcelebhq/test_images/',
+	'celeba_train_sketch': '',
+	'celeba_test_sketch': '',
+	'celeba_train_segmentation': '',
+	'celeba_test_segmentation': '',
+	'ffhq': '/datasets/CelebAMask-HQ/CelebA-HQ-img/',
+}
+
+model_paths = {
+	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
+	'ir_se50': 'pretrained_models/model_ir_se50.pth',
+	'circular_face': 'pretrained_models/CurricularFace_Backbone.pth',
+	'mtcnn_pnet': 'pretrained_models/mtcnn/pnet.npy',
+	'mtcnn_rnet': 'pretrained_models/mtcnn/rnet.npy',
+	'mtcnn_onet': 'pretrained_models/mtcnn/onet.npy',
+	'shape_predictor': 'shape_predictor_68_face_landmarks.dat',
+	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pth.tar'
+}
